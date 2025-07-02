@@ -8,8 +8,8 @@ The supervised deep learning methods for electrical impedance tomography (EIT) r
 
 # Main contributions
 
-(1) We propose a novel diffusion-based inhomogeneous sensitivity prior generation method based on the homogeneous sensitivity as boundary condition and the measured voltage as guided condition, named \textbf{SPfusion}.
+(1) We propose a novel diffusion-based inhomogeneous sensitivity prior generation method based on the homogeneous sensitivity as boundary condition and the measured voltage as guided condition, named SPfusion.
 
-(2) We propose a novel \textbf{DDSP-Net} with three novel Transformer-based modules, which are PixelFormer based on Cartesian coordinate, PolarFormer based on polar coordinates, and $U$-conditional cross-attention. 
+(2) We propose a novel DDSP-Net with three novel Transformer-based modules, which are PixelFormer based on Cartesian coordinate, PolarFormer based on polar coordinates, and U-conditional cross-attention. 
 
 (3) The visual reconstructions and quantitative metrics, both on in-distribution and out-of-distribution data, show that our SPfusion can effectively improve the quality of reconstruction compared with state-of-the-art methods.
